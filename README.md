@@ -64,7 +64,7 @@ involving network programming, concurrency, IPv6 and data structures.
 
 ## Featured Projects
 
-### Actifity — Sports Activities Management Platform
+### Actifity - Sports Activities Management Platform
 
 A PHP/Nette web application for managing sports activities, events,
 bookings and organizer workflows.
@@ -120,7 +120,7 @@ protocol.
 
 ## Education
 
-**BSc in Informatics — Web Engineering**  
+**BSc in Informatics - Web Engineering**  
 Faculty of Information Technology  
 Czech Technical University in Prague
 
