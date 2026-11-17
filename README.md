@@ -71,7 +71,7 @@ involving network programming, concurrency, IPv6 and data structures.
 
 ## Featured Projects
 
-### Renewal Desk — Contract Renewal Management
+### Renewal Desk - Contract Renewal Management
 
 A Ruby on Rails application for tracking contract notice deadlines,
 automating renewal reminders and recording renewal decisions
