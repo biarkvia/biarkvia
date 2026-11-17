@@ -92,7 +92,7 @@ with Docker Compose and GitHub Actions CI.
 **Stack:** Ruby, Ruby on Rails, PostgreSQL, Solid Queue, OpenAI API,
 Minitest, Docker, GitHub Actions
 
-[View repository](REPLACE_WITH_REPOSITORY_URL)
+[View repository](https://github.com/biarkvia/renewal-desk)
 
 ---
 
