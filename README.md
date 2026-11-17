@@ -6,7 +6,7 @@
 </h3>
 
 <p align="center">
-  PHP · Nette · SQL · REST APIs · C++ · Linux
+  PHP · Nette · Ruby on Rails · PostgreSQL · REST APIs · C++ · Linux
 </p>
 
 <p align="center">
@@ -28,6 +28,11 @@ integrations and maintaining existing backend systems. I've developed
 features for inventory management, invoicing, product pricing,
 reporting and transport workflows.
 
+I'm also building Ruby on Rails applications, applying my backend
+experience to contract workflows and process automation. My latest
+project, Renewal Desk, combines deadline tracking, background jobs
+and an OpenAI integration that extracts contract terms for user review.
+
 I also have hands-on experience with IT infrastructure, Windows and
 Linux servers, networking and system administration.
 
@@ -45,6 +50,8 @@ involving network programming, concurrency, IPv6 and data structures.
 ![Symfony](https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white)
 ![Doctrine](https://img.shields.io/badge/Doctrine-FC6A31?style=for-the-badge)
 ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
+![Ruby on Rails](https://img.shields.io/badge/Ruby_on_Rails-D30001?style=for-the-badge&logo=rubyonrails&logoColor=white)
 
 ### Systems
 
@@ -63,6 +70,31 @@ involving network programming, concurrency, IPv6 and data structures.
 ---
 
 ## Featured Projects
+
+### Renewal Desk — Contract Renewal Management
+
+A Ruby on Rails application for tracking contract notice deadlines,
+automating renewal reminders and recording renewal decisions
+with a history of changes.
+
+Implemented an authenticated web interface and REST API, owner-scoped
+access and scheduled background jobs with Solid Queue. Contract updates
+use database transactions, row locking and version checks to prevent
+conflicting changes; reminders remain unique when jobs overlap.
+
+Integrated the OpenAI Responses API to suggest end dates and notice
+periods from contract excerpts. Suggestions use structured output,
+include exact source quotes and require user review before saving.
+
+Includes domain, integration, concurrency and browser tests,
+with Docker Compose and GitHub Actions CI.
+
+**Stack:** Ruby, Ruby on Rails, PostgreSQL, Solid Queue, OpenAI API,
+Minitest, Docker, GitHub Actions
+
+[View repository](REPLACE_WITH_REPOSITORY_URL)
+
+---
 
 ### Actifity - Sports Activities Management Platform
 
