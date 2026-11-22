@@ -55,11 +55,11 @@ My public projects cover business software, Android apps that work offline, and 
 
 ### Actifity · Sports bookings and event management
 
-For my bachelor's thesis at CTU Prague, I built a platform where participants can find classes, reserve a place and cancel a booking. Organizers manage events and participant lists. I tested the booking flow with users in both roles.
+I built Actifity for sports organizers and their participants. Participants can filter classes by sport, date or location, book a place and cancel a reservation. Organizers create events and manage participant lists. I tested the booking flow with users in both roles.
 
 **Stack** · PHP, Nette, Doctrine ORM, MySQL, JavaScript, REST APIs, Docker
 
-[View repository](https://github.com/biarkvia/actifity) · [Thesis at CTU](https://fit.cvut.cz/en/faculty/people/5276-ing-jiri-novak-ph-d/theses#:~:text=Web%20Application%20for%20Efficient%20Organization%20of%20Sports%20Activities)
+[View repository](https://github.com/biarkvia/actifity)
 
 ---
 
