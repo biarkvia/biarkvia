@@ -6,7 +6,8 @@
 
 <p align="center">
   <a href="mailto:slava.biarko@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/slavassse/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/slavassse/">LinkedIn</a> ·
+  <a href="https://biarkvia.github.io/voltar-auto/">VOLTAR AUTO · živá ukázka</a>
 </p>
 
 ---
@@ -52,6 +53,14 @@ My public projects cover business software, Android apps that work offline, and 
 ---
 
 ## Featured Projects
+
+### VOLTAR AUTO · Ukázka webu
+
+Ukázka webu pro fiktivní pražský autoservis VOLTAR AUTO. Prohlédněte si služby a galerii dílny nebo si vyzkoušejte poptávkový formulář bez odesílání údajů.
+
+[Otevřít živou ukázku](https://biarkvia.github.io/voltar-auto/) · [Zdrojový kód](https://github.com/biarkvia/voltar-auto)
+
+---
 
 ### Actifity · Sports bookings and event management
 
