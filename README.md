@@ -60,7 +60,7 @@ My public projects cover business software, Android apps that work offline, and 
 
 ## Featured Projects
 
-### Windows–Linux Office Lab · Domain access and file server recovery
+### Windows-Linux Office Lab · Domain access and file server recovery
 
 I built a four-VM office network on Hyper-V and tested it from an employee’s Windows 11 desktop. When I moved the account from Finance to Sales, Group Policy mapped the same `S:` drive to Sales. I verified that the employee could write there and that opening the old Finance share directly returned access denied.
 
