@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Viachaslau Biarko 👋</h1>
 
-<h3 align="center">Backend Developer · Kotlin for Android &amp; JVM · Systems Programming</h3>
+<h3 align="center">Backend Developer · Kotlin for Android &amp; JVM · Systems Programming · Windows &amp; Linux Administration</h3>
 
 <p align="center">Prague, Czechia · PHP · Kotlin · Ruby on Rails · SQL · C++ · Linux</p>
 
@@ -18,7 +18,7 @@ At **OXIT**, I developed internal CRM software for inventory, pricing, invoicing
 
 I work in systems administration at **Charles University**, supporting Windows and Linux servers, Active Directory and HP/Aruba networks. I use PowerShell and Bash to troubleshoot server and network issues. During a research internship at **Axis FF**, I compared standards for representing physical assets in digital twins.
 
-My public projects cover business software, Android apps that work offline, and data structures. Below are examples in PHP, Kotlin, Ruby and C++.
+My public projects cover business software, Android apps that work offline, and data structures. Below are examples in PHP, Kotlin, Ruby and C++. My Windows–Linux Office Lab shows how I use PowerShell and Ansible to manage access across a Windows domain and an Ubuntu file server.
 
 ---
 
@@ -50,9 +50,25 @@ My public projects cover business software, Android apps that work offline, and 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
+### Infrastructure & automation
+
+- **Windows Server & Hyper-V** · Active Directory Domain Services, DNS, Group Policy drive mappings and PowerShell provisioning.
+- **Ubuntu & Ansible** · Samba domain membership with Winbind, signed SMB and department shares with POSIX ACLs.
+- **Backup & monitoring** · Scheduled backups with systemd timers, Zabbix alerts for overdue copies and recovery checks from Windows 11.
+
 ---
 
 ## Featured Projects
+
+### Windows–Linux Office Lab · Domain access and file server recovery
+
+I built a four-VM office network on Hyper-V and tested it from an employee’s Windows 11 desktop. When I moved the account from Finance to Sales, Group Policy mapped the same `S:` drive to Sales. I verified that the employee could write there and that opening the old Finance share directly returned access denied.
+
+In a recovery drill, I restored the Samba file server on a clean Ubuntu VM. **12 minutes 15 seconds** after I declared the outage, the employee could open the original path again. The restored file matched its SHA-256 checksum, and the department restrictions still held.
+
+[View repository](https://github.com/biarkvia/windows-linux-office-lab) · [Recovery report](https://github.com/biarkvia/windows-linux-office-lab/blob/main/docs/step-8.md)
+
+---
 
 ### VOLTAR AUTO · Ukázka webu
 
